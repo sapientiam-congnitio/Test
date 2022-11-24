@@ -88,7 +88,7 @@ class ProductCard extends Component {
             )}
           </ItemTop>
           <ItemName>{item.brand} {item.name}</ItemName>
-          <ItemPrice>{`${prices.symbol} ${amount}`}</ItemPrice>
+          <ItemPrice>{`${prices.symbol}${amount}`}</ItemPrice>
         </ItemContainer>
       </>
     );

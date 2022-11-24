@@ -149,6 +149,7 @@ export const Title = styled.span`
   font-weight: normal;
   font-size: 42px;
   color: #1d1f22;
+  text-transform: capitalize
 `;
 
 export const Btn = styled.span`

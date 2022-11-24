@@ -59,7 +59,7 @@ import Navbar from "../header/Navbar";
     return (
       <>
         <Navbar/>
-        <Title>{this.props.category.toUpperCase()}</Title>
+        <Title>{this.props.category}</Title>
         <ProductsContainer>
           {this.state.products &&
             this.state.products.map((item, id) => (
